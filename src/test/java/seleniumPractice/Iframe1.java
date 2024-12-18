@@ -9,8 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Iframe1 {
 
 	public static void main(String[] args) {
-		System.setProperty("WebDriver.Chrome.driver","E:/drivers/chromedriver-win64"
-				+ "/chromedriver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:/webdriver/chromedriver-win64/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demo.automationtesting.in/Frames.html");
